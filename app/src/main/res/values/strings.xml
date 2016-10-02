@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SG GPA</string>
+    <string name="title_school_list">School list</string>
+    <string name="title_term_list">Term list</string>
+    <string name="title_module_list">Module list</string>
+    <string name="title_add">Add</string>
+    <string name="title_grade_setting">Grade settings</string>
+
+    <string name="action_add_school">Add school</string>
+    <string name="action_add_term">Add term</string>
+    <string name="action_add_module">Add module</string>
+    <string name="action_grade_settings">Grade settings</string>
+</resources>

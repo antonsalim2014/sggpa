@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:layout_gravity="center"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorSecondaryContent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_delete"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true">
+            <TextView
+                android:id="@+id/tv_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:text="Singapore Institute of Technology" />
+
+            <RelativeLayout
+                android:id="@+id/layout_total_semester"
+                android:layout_below="@+id/tv_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:text="Total terms:  "/>
+                <TextView
+                    android:id="@+id/tv_total_terms"
+                    android:layout_toRightOf="@+id/textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:text="5"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_c_gpa"
+                android:layout_below="@+id/layout_total_semester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:text="CGPA:  "/>
+                <TextView
+                    android:id="@+id/tv_c_gpa"
+                    android:layout_toRightOf="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:text="5.22"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_delete"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

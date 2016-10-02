@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "263837039680",
+    "firebase_url": "https://sg-gpa.firebaseio.com",
+    "project_id": "sg-gpa",
+    "storage_bucket": "sg-gpa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263837039680:android:00b5d4187a5a7ff9",
+        "android_client_info": {
+          "package_name": "as.com.sggpa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263837039680-358rf1c2fnrk0alp5kqai0l3fdrrr2ij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSxbiatdQGkWF-QW5_zt6HbxNr2QMPgs0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

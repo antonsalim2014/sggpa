@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryContent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/et_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Grade"
+        android:background="@color/white"
+        android:textSize="28dp"
+        android:maxLength="2"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <EditText
+        android:id="@+id/et_gpa"
+        android:layout_below="@+id/et_grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="GPA"
+        android:background="@color/white"
+        android:textSize="28dp"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_below="@+id/et_gpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ADD GRADE" />
+
+    <ListView
+        android:id="@+id/lv_grade"
+        android:layout_below="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
